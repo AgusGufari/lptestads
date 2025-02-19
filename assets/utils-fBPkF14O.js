@@ -1,0 +1,1 @@
+import"./jsx-runtime-ByGpHSPZ.js";import{a as n}from"./store-yifqSBJQ.js";const o=new WeakMap;function f(t,e){const r=n(e),d=u(r);for(const[a,s]of t)(!d.has(a)||e!=null&&e.dangerouslyForceHydrate)&&(d.add(a),r.set(a,s))}const u=t=>{let e=o.get(t);return e||(e=new WeakSet,o.set(t,e)),e};export{f as u};
